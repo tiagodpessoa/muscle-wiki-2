@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/reset.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <title>MuscleWiki 2.0</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo-img" src="/public/img/logo.png" alt="logo" width="350px">
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/skills" lang="en">Skills</a>
+            <a href="/projetos">Projetos</a>
+            <a href="/contatos">Contatos</a>
+        </nav>
+    </header>
+
+    <div class="escolher-sexo">
+        <label>
+            <input type="radio" value="male" checked><i></i><i></i><span>Homem</span>
+        </label>
+        <label>
+            <input type="radio" value="male"><i></i><i></i><span>Mulher</span>
+        </label>
+    </div>
+
+    <section class="body">
+        <div class="corpo-humano">
+            <img src="https://thumbs.dreamstime.com/b/o-corpo-humano-muscles-silhueta-81974027.jpg"
+                alt="músculos masculinos">
+        </div>
+    </section>
+    <footer>
+        <div class="logos-footer">
+            <a href=""><img class="footer-logo"
+                    src="https://i.pinimg.com/originals/1e/1e/8f/1e1e8fbfed3d555c052154b6bad2c05c.jpg" alt="gmail logo">
+            </a>
+            <a href=""><img class="footer-logo"
+                    src="data:image/png;base64,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"
+                    alt="linkedin logo">
+            </a>
+            <a href=""><img class="footer-logo"
+                    src="data:image/png;base64,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"
+                    alt="github logo">
+            </a>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;
+                <script type="text/javascript">
+                    var d = new Date()
+                    document.write(d.getFullYear())
+                </script> musclewiki.com.br | <span>Muscle Wiki 2.0</span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<div>
+</div>
